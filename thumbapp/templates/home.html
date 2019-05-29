@@ -94,7 +94,7 @@
               <td>{{p.id}}</td>
               <td>
                 <a href="{% url 'detail' p.id %}">
-                  <input type="image" src="{{p.image.url}}">
+                  <input type="image" src="{{p.image_thumbnail.url}}">
                 </a>
               </td>
               <td><a href="{% url 'detail' p.id %}">{{p.title}}</a></td>

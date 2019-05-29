@@ -33,6 +33,8 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    # thumbnail
+    'imagekit',
     'thumbapp.apps.ThumbappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
